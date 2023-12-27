@@ -1,0 +1,8 @@
+<%= render @device %>
+
+<div>
+  <%= link_to "Edit this device", edit_device_path(@device), class:"btn btn-secondary" %> 
+  <%= link_to "Back to devices", devices_path, class:"btn btn-dark" %>
+</br></br>
+  <%= button_to "Delete", @device, method: :delete , class:"btn btn-danger" %>
+</div>
